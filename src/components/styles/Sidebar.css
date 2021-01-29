@@ -1,0 +1,65 @@
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 250px;
+    position: fixed;
+    background-color: #f1f1f1;
+    max-height: calc(100vh - 9rem);
+    overflow-y: scroll;  
+    overflow-x: hidden;
+    margin-top: 25px;
+    margin-left: 35px;
+    margin-right: 45px;
+}
+
+.sidebar__title{
+  font-weight: bold;
+}
+
+.sidebar__text{
+  font-size: 15px;
+}
+
+.sidebar__list{
+  display: block;
+  color: black;
+  padding: 0;
+  text-decoration: none;
+}
+  
+ul li{
+  list-style-type: none;
+  margin-bottom: 35px;
+}
+
+.cardd{
+  box-shadow: 4px 0 10px 0 rgba(0,0,0,0.2);
+  transition: 0.2s;
+  width: 90%;
+  background-color:#f1f1f1;
+}
+
+p{
+  margin-right:  3em;
+}
+
+.card__image{
+  display: grid;
+  margin: 1em;
+  padding: 1em;
+}
+
+
+img{
+  width: 100%;
+  position: absolute;
+  right: -75px;
+  bottom: -65px;
+}
+
+.card:hover {
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+b {
+padding: 2px 16px;
+}

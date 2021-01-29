@@ -1,0 +1,35 @@
+
+.Navbar{
+    width: 100%;
+    height: 60px;
+    padding: 0.5rem 0;
+    background-color: #122d64;
+    text-align: center;
+    
+}
+
+.Navbar__course{
+    float: left;
+    color: #cad3d3; 
+    font-size: 15px;
+}
+
+.Navbar__title{
+    color: white; 
+    font-weight: bold;
+    font-size: 17px;
+    display: inline-block;
+    margin: 0 auto;
+    margin-top: 6px;
+
+
+}
+
+.Navbar__img{
+    max-width: 20px;
+    height:auto;
+    color: #122d64;
+    margin-top: 6px;
+    float: left;
+
+}
