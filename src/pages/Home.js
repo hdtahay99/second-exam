@@ -9,7 +9,7 @@ export const Home = () => {
         <>
             <Navbar course='Matemáticas' title='Precálculo' />
             <div className="Body__color">
-                <Sidebar />
+                <Sidebar score="4.900" />
                 <ContentView />
             </div>            
         </>

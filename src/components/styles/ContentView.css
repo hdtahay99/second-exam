@@ -1,6 +1,55 @@
 div.content {
     margin-left: 300px;
+    margin-right: 100px;
+    margin-top: 0;
     padding: 1px 16px;
-    height: 1000px;
-  }
-  
+    height: 1000px; 
+}
+
+.content__card{
+  margin-bottom: 1rem;
+}
+
+.content__card-img {
+  border-radius: 50%;
+  background: #1ccac1;
+  margin-right: 0.5rem;
+  margin-top: -5px;
+  width: 30px;
+  height: 30px;
+  float: left;
+  position: static;
+}
+
+.content__card-body {
+  background: #FFFFFF;
+  box-shadow: 02px4px0rgba(0, 0, 0, 0.23);
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+
+.content__card-list{
+  margin-top: 20px;
+  padding: 0;
+  list-style-type: none;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+  columns: 2;
+
+}
+
+.domain{
+  margin-top: -25px;
+  margin-right: 40px;
+  float: right;
+  font-size: 13px;
+}
+
+.domain__img {
+  float: right;
+  position: static;
+  max-width: 20px;
+  margin-right: 10px;
+  margin-top: -25px;
+}

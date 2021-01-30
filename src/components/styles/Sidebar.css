@@ -7,8 +7,8 @@
     max-height: calc(100vh - 9rem);
     overflow-y: scroll;  
     overflow-x: hidden;
-    margin-top: 25px;
-    margin-left: 35px;
+    margin-top: 80px;
+    margin-left: 25px;
     margin-right: 45px;
 }
 
@@ -25,11 +25,20 @@
   color: black;
   padding: 0;
   text-decoration: none;
+  padding: 0;
+  list-style-type: none;
+  margin-bottom: 35px;
 }
   
 ul li{
+  padding: 0;
   list-style-type: none;
   margin-bottom: 35px;
+}
+
+.decoration{
+  padding: 0;
+  list-style-type: none;
 }
 
 .cardd{
